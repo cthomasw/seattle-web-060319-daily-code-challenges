@@ -12,6 +12,8 @@ string = "a string"
 
 def who_likes(string, likers_array)
   case likers_array.length
+  when 0
+    puts "No one likes this"
   when 1
     puts "#{likers_array[0]} likes #{string}"
   when 2
